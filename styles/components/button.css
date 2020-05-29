@@ -1,0 +1,24 @@
+.button {
+  border-radius: 4px;
+  height: 40px;
+  margin: 12px;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #6fcb85;
+  border: 2px solid #6fcb85;
+  padding: 11px 20px;
+  cursor: pointer;
+}
+.button:hover {
+  color: #6fcb85;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+.button.is-active {
+  color: #6fcb85;
+  background-color: #ffffff;
+  text-decoration: none;
+}

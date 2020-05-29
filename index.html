@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <div class="row">
+      <aside class="column width-1-5">
+        <nav class="nav">
+          <a class="nav-item-primary" href="#"
+            ><i class="fas fa-clock"></i> Dashboard</a
+          >
+          <a class="nav-item-primary" href="#"
+            ><i class="fas fa-file-alt"></i> Invoice</a
+          >
+          <a class="nav-item-primary" href="#">Offer</a>
+          <a class="nav-item-primary" href="#">Invoice</a>
+          <a class="nav-item-primary" href="#">Credit / Cancellation</a>
+          <a class="nav-item-primary is-active" href="#"
+            ><i class="fas fa-users"></i> Contacts</a
+          >
+          <a class="nav-item-primary" href="#"
+            ><i class="fas fa-shopping-cart"></i> Item</a
+          >
+        </nav>
+      </aside>
+      <form class="column width-4-5">
+        <header class="header">
+          <h1 class="title">New Contact</h1>
+          <button class="button is-active">Save draft</button>
+          <button class="button">Save</button>
+        </header>
+        <section class="section">
+          <div class="conteiner">
+            <h3 class="section-title">General information</h3>
+            <label class="form-control">
+              <input class="person" type="radio" name="day" value="Friday" />
+              Organisation
+              <input
+                class="person"
+                type="radio"
+                name="day"
+                value="Saturday"
+                checked
+              />
+              Person
+            </label>
+            <div class="row">
+              <div class="column width-1-3">
+                <label>
+                  Name of Organisation
+                  <input class="line" type="text" name="username" />
+                </label>
+                <label>
+                  Everbill exchange key
+                  <input class="line" type="text" name="username" />
+                </label>
+              </div>
+              <div class="column width-1-3">
+                <label>
+                  Category
+                  <input class="line" type="text" name="username" />
+                </label>
+                <label>
+                  Customer number
+                  <input class="line" type="text" name="username" />
+                </label>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="comtainer">
+            <nav class="nav">
+              <div class="nav-item">Address</div>
+              <div class="nav-item">Details</div>
+              <div class="nav-item is-active">Payment Information</div>
+              <div class="nav-item">Accounting</div>
+              <div class="nav-item">Conditions</div>
+              <div class="nav-item">Notes</div>
+            </nav>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="column width-1-3">
+                <label>
+                  Payment
+                  <input class="line" type="text" name="username" />
+                </label>
+                <label>
+                  Tax ID
+                  <input class="line" type="text" name="username" />
+                </label>
+              </div>
+              <div class="column width-1-3">
+                <label>
+                  Tax number
+                  <input class="line" type="text" name="username" />
+                </label>
+                <label>
+                  Currency
+                  <input class="line" type="text" name="username" />
+                </label>
+              </div>
+              <div class="column width-1-3">
+                <div class="section-block">
+                  <p>Payment remittance transfer:</p>
+                  <p class="black-text">Term of payment 14 days</p>
+                  <p class="green-text">Change</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <p>Show note on the invoice</p>
+            <input class="text" type="checkbox" name="day" value="Friday" />
+            "Please transfer the invoice amount within ## days"
+            <h3 class="section-title">Payment note debit</h3>
+            <div class="row">
+              <div class="column width-1-3">
+                <label>
+                  Account owner
+                  <input class="line" type="text" name="username" />
+                </label>
+                <label>
+                  Bank
+                  <input class="line" type="text" name="username" />
+                </label>
+              </div>
+              <div class="column width-1-3">
+                <label>
+                  Iban
+                  <input class="line" type="text" name="username" />
+                </label>
+                <label>
+                  Mandate reference
+                  <input class="line" type="text" name="username" />
+                </label>
+              </div>
+              <div class="column width-1-3">
+                <label>
+                  BIC
+                  <input class="line" type="text" name="username" />
+                </label>
+              </div>
+            </div>
+            <p>Show note on the invoice</p>
+            <input class="text" type="checkbox" name="day" value="Friday" />
+            "Please transfer the invoice amount within ## days"
+            <h3 class="section-title">Payment note debit</h3>
+            <p>Show note on the invoice</p>
+            <input class="text" type="checkbox" name="day" value="Friday" />
+            "Please transfer the invoice amount within ## days"
+            <h3 class="section-title">Payment note debit</h3>
+            <p>Show note on the invoice</p>
+            <input class="text" type="checkbox" name="day" value="Friday" />
+            "Please transfer the invoice amount within ## days"
+            <h3 class="section-title">Payment note debit</h3>
+            <p>Show note on the invoice</p>
+            <input class="text" type="checkbox" name="day" value="Friday" />
+            "Please transfer the invoice amount within ## days"
+            <h3 class="section-title">Payment note debit</h3>
+            <p>Show note on the invoice</p>
+            <input class="text" type="checkbox" name="day" value="Friday" />
+            "Please transfer the invoice amount within ## days"
+          </div>
+        </section>
+      </form>
+    </div>
+  </body>
+</html>
